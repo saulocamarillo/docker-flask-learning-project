@@ -22,9 +22,10 @@ Running the App Locally
    source venv/bin/activate
 
 
-5.  create the  virtual enviroment 
+5. create the  virtual enviroment 
 
-   python3 m venv venv
+   python3 -m venv venv
+
 
 6. Install Pip (extencion de python)
 
