@@ -12,6 +12,7 @@ Running the App Locally
    apt-get update
 
 2. Install Phyton
+
    apt-get install -y phyton
 
 
