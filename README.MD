@@ -4,11 +4,6 @@ This repository contains a minimal Flask application used for learning Docker, i
 
 ---
 
-## Project Structure
-
-├── app.py
-├── README.md
-└── LICENSE
 
 Running the App Locally
 
