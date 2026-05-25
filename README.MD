@@ -13,14 +13,16 @@ Running the App Locally
 
 2. Install Python
 
-   apt-get install -y python
+   apt-get install -y python3
 
+3. Install Pip (extencion de python)
+   apt-get install pyton3-pip
 
-3. Run the application:
+4. Run the application:
 
    python app.py
 
-3. Open your browser at:
+5. Open your browser at:
 
    http://localhost:5000
 
