@@ -17,7 +17,7 @@ Running the App Locally
    apt-get install -y python3.14-venv
 
 
-4- Select the source
+4. Select the source
    
    source venv/bin/activate
 
