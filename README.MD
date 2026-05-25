@@ -11,9 +11,9 @@ Running the App Locally
 
    apt-get update
 
-2. Install Phyton
+2. Install Python
 
-   apt-get install -y phyton
+   apt-get install -y python
 
 
 3. Run the application:
