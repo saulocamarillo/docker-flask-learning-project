@@ -22,27 +22,27 @@ Running the App Locally
    source venv/bin/activate
 
 
-5  create the  virtual enviroment 
+5.  create the  virtual enviroment 
 
    python3 m venv venv
 
-5. Install Pip (extencion de python)
+6. Install Pip (extencion de python)
 
    apt-get install pyton3-pip
 
 
-6. Install the flask dependency
+7. Install the flask dependency
 
    pip install flask
 
 
-7. Run the application:
+8. Run the application:
 
    FLASK_APP=app.py flask run --host=0.0.0.0
 
 
 
-8. Open your browser at:
+9. Open your browser at:
 
    http://localhost:5000
 
