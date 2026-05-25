@@ -19,11 +19,15 @@ Running the App Locally
 
    apt-get install pyton3-pip
 
-4. Run the application:
+4. Install the flask dependency
+
+   pip install flask
+
+5. Run the application:
 
    python app.py
 
-5. Open your browser at:
+6. Open your browser at:
 
    http://localhost:5000
 
