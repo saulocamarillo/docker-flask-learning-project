@@ -16,6 +16,7 @@ Running the App Locally
    apt-get install -y python3
 
 3. Install Pip (extencion de python)
+
    apt-get install pyton3-pip
 
 4. Run the application:
