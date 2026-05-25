@@ -11,25 +11,31 @@ Running the App Locally
 
    apt-get update
 
+
 2. Install Python3 venv
 
    apt-get install -y python3.14-venv
 
+
 4- Select the source
 
-   source venc/bin/activate
+   source venv/bin/activate
+
 
 5. Install Pip (extencion de python)
 
    apt-get install pyton3-pip
 
+
 6. Install the flask dependency
 
    pip install flask
 
+
 7. Run the application:
 
    python app.py
+
 
 8. Open your browser at:
 
