@@ -14,7 +14,7 @@ Running the App Locally
 
 2. Install Python3 venv
 
-   apt-get install -y python3.14-venv
+   apt-get install -y python3-venv
 
 
 4. Select the source
