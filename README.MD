@@ -34,7 +34,8 @@ Running the App Locally
 
 7. Run the application:
 
-   python app.py
+   FLASK_APP=app.py flask run --host=0.0.0.0
+
 
 
 8. Open your browser at:
