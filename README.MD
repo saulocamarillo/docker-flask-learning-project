@@ -18,7 +18,7 @@ Running the App Locally
 
 
 4- Select the source
-
+   
    source venv/bin/activate
 
 
