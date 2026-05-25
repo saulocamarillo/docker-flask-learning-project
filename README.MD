@@ -7,11 +7,15 @@ This repository contains a minimal Flask application used for learning Docker, i
 
 Running the App Locally
 
-1. Install Flask:
+1. Update the system
 
-   pip install flask
+   apt-get update
 
-2. Run the application:
+2. Install Phyton
+   apt-get install -y phyton
+
+
+3. Run the application:
 
    python app.py
 
