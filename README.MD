@@ -11,9 +11,9 @@ Running the App Locally
 
    apt-get update
 
-2. Install Python
+2. Install Python3 venv
 
-   apt-get install -y python3
+   apt-get install -y python3.14-venv
 
 3. Install Pip (extencion de python)
 
