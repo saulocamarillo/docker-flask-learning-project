@@ -1,13 +1,16 @@
-FROM ubuntu
+FROM ubuntu:22.04
 
 ENV DEBIAN_FRONTEND=noninteractive
-RUN apt-get update
-RUN apt-get install -y python3-venv
-RUN python3 -m venv venv
-RUN source venv/bin/activate
-RUN apt-get install pyton3-pip
-RUN pip install flask
+
+RUN apt-get update && \
+    apt-get install -y python3 python3-pip
+
+RUN pip3 install flask
 
 COPY app.py /opt/app.py
+WORKDIR /opt
 
-ENTRYPOINT FLASK_APP=app.py flask run --host=0.0.0.0
+ENV FLASK_APP=app.py
+
+ENTRYPOINT ["flask", "run", "--host=0.0.0.0"]
+
