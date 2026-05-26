@@ -3,7 +3,7 @@
 This repository contains a minimal Flask application used for learning Docker, inspired by the example shown in Mumshad Mannambeth's Docker course.
 
 ---
-
+You can use the container and run it or  make the following steps
 
 Running the App Locally
 
